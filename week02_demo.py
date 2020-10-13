@@ -26,7 +26,7 @@ def calculate_interest(balance, interest_rate):
     Returns total interest paid for a given balance,
     at rate interest_rate (given in %).
     '''
-    interest = 0.01 * interest_rate * balance
+    interest = 0.02 * interest_rate * balance
     return interest
 
 def update_statement(statement, initial_balance, interest_rate):
